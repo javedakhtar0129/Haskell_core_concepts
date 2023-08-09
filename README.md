@@ -1,0 +1,1 @@
+Core concepts of Haskell
