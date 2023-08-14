@@ -10,11 +10,10 @@
 
 --HIGHER ORDER FUNCTIONS
 -- This is basically passing a function as the argument for another function
--- apply f x = f x , What will be the type of apply
+-- [apply f x = f x] , What will be the type of apply
 -- We know for f x the type is a -> b(output) so apply will be apply (a->b) -> b(output type)
 -- Sorting algos are the best example for a higher order function
 -- map and filters are the most important higher order functions
-
 
 
 main :: IO ()
