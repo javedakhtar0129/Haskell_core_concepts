@@ -14,6 +14,11 @@ isEmpty :: Stack a -> Bool
 isEmpty (Stack []) = True
 isEmpty (Stack _) = False
 
+sumStack :: (Num a) => Stack a -> a
+sumStack (Stack []) = 0
+sumStack (Stack (x:xs)) = x+ sumStack (Stack xs)
+
+
 a = Stack [1,2,3,4]
 
 
